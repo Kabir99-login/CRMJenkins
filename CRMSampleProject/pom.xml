@@ -17,7 +17,7 @@
             <configuration>
                 <suiteXmlFiles>
                     <!-- Path to your testng.xml file relative to the project root -->
-                    <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                    <suiteXmlFile>src/test/resources/testngRT.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
@@ -38,7 +38,7 @@
             <configuration>
                 <suiteXmlFiles>
                     <!-- Path to your testng.xml file relative to the project root -->
-                    <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                    <suiteXmlFile>src/test/resources/testngST.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
