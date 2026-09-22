@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class OrganizationTest {
 	
-	@Test
+	@Test(groups="RT")
 	public void createOrganization() {
 
 		
@@ -16,7 +16,7 @@ public class OrganizationTest {
 	}
 	
 	
-	@Test
+	@Test(groups="ST")
 	public void createOrgWithDropdown() {
 
 		

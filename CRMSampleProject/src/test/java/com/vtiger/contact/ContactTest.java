@@ -3,7 +3,7 @@ package com.vtiger.contact;
 import org.testng.annotations.Test;
 
 public class ContactTest {
-	@Test
+	@Test(groups="RT")
 	public void createContact() {
 
 		String URl = System.getProperty("url", "http://testenv");
@@ -17,7 +17,7 @@ public class ContactTest {
 		System.out.println(password);
 
 	}
-	@Test
+	@Test(groups="ST")
 	public void createContactWithDropdown() {
 
 		
